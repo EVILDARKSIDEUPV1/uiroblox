@@ -1,5 +1,5 @@
 function OpenLibrary(A, B)
-    local DefaultColor = Color3.fromRGB(0, 51, 102)
+    local DefaultColor = Color3.fromRGB(98, 7, 147)
     local IgnoreDuplicates = false
     
     pcall(function()
@@ -151,7 +151,7 @@ function OpenLibrary(A, B)
     end)
 
     game:GetService("Players").LocalPlayer:GetMouse().KeyDown:Connect(function(Key)
-        if Key == "u" then
+        if Key == "RightControl" then
             Frame.Visible = not Frame.Visible
         end
     end)
