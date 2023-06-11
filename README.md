@@ -151,7 +151,7 @@ function OpenLibrary(A, B)
     end)
 
     game:GetService("Players").LocalPlayer:GetMouse().KeyDown:Connect(function(Key)
-        if Key == "RightControl" then
+        if Key == "i" then
             Frame.Visible = not Frame.Visible
         end
     end)
