@@ -44,7 +44,7 @@ function OpenLibrary(A, B)
     
     Hotbar.Name = "Hotbar"
     Hotbar.Parent = Frame
-    Hotbar.BackgroundColor3 = Color3.fromRGB(127, 0, 127)
+    Hotbar.BackgroundColor3 = Color3.fromRGB(98, 7, 147)
     Hotbar.BorderSizePixel = 0
     Hotbar.Size = UDim2.new(0, 501, 0, 27)
     
@@ -73,7 +73,7 @@ function OpenLibrary(A, B)
     
     Buttons.Name = "Buttons"
     Buttons.Parent = Frame
-    Buttons.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+    Buttons.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     Buttons.BorderSizePixel = 0
     Buttons.Position = UDim2.new(0, 0, 0.0989011005, 0)
     Buttons.Size = UDim2.new(0, 149, 0, 246)
