@@ -37,7 +37,7 @@ function OpenLibrary(A, B)
     ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     
     Frame.Parent = ScreenGui
-    Frame.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+    Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     Frame.BorderSizePixel = 0
     Frame.Position = UDim2.new(0.311278194, 0, 0.288372099, 0)
     Frame.Size = UDim2.new(0, 501, 0, 273)
